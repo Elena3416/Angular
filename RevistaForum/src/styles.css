@@ -1,0 +1,273 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Raleway:wght@200&display=swap');
+
+header{
+    background-image: url(./assets/IMG/grisclaro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 13vh;
+    margin: 6px 8px;
+}
+
+ header > h1 {
+    font-size: 60px;
+    color:rgb(90, 88, 88);
+    font-family: 'Manrope';
+    font-weight: bold;
+    margin: 3px 4px;   
+}
+
+#letra {
+    color: green;
+    font-family: "Raleway";
+    font-size: 80px;
+    right: 92%;
+    top: -1%;
+    position: absolute;
+}
+span{
+    color: green;
+    font-family: "Raleway";
+    font-size: 15px;
+    top: -18px;
+    right: 4px;
+    position: relative;
+}
+
+p{
+    color: green;
+    font-family: "Raleway";
+    font-size: 15px;
+    position: relative;
+    left: 8%;
+    bottom: -20%;
+    font-weight: bold;
+}
+
+#copy{
+    font-size: 20px;
+    color:rgb(90, 88, 88);
+    font-family: 'Manrope';
+    font-weight: bold;
+    margin: -30px 115px; 
+}
+
+.Menu{
+    width: 98%;
+    height: 5vh;
+}
+
+.Menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu ul > li{
+    background-image: url(./assets/IMG/green.jpg);
+    background-size: cover;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: bold;
+    width: 11%;
+    text-align: center;
+}
+
+#fecha{
+    color: #ffff;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: bold;
+    background: rgb(90, 88, 88);
+    width: 27%;
+    text-align: center;
+}
+
+#imagen img {
+    width: 98%;
+    height: 70vh;
+    margin: 0px 8px;
+}
+
+#linea{
+    border: 3px solid #ffff;
+    width: 96%;
+    height: 66vh;
+    margin: 15px 18px;
+    position:absolute;
+    bottom: 50px;
+}
+
+#texto > p{
+    color: #ffff;
+    list-style: none;
+    font-weight: bold;
+    margin: 4px 4px;
+    position: absolute;
+    top:83%;
+    left:3%;
+}
+
+ #Forum{
+    font-family: "Raleway";
+    font-size: 25px;
+    position: absolute;
+    left: 70%;
+    top: 45%;
+    font-weight: bold;
+    color: #ffff;
+    width: 200px;
+    height: 10vh; 
+}
+
+.Letras{
+    font-family: "Raleway";
+    font-size: 60px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-weight: bold;
+    color: #ffff;  
+}
+
+#O{
+    font-family: "Raleway";
+    /* font-size: 100px; */
+    position: absolute;
+    left: -2%;
+    top: 40%;
+    font-weight: bold;
+    color:green; 
+    /* width: 200px;
+    height: 10vh;  */
+}
+
+.tarjetas{
+    display: flex;
+    width: 98%;
+    height: 55%;
+    margin: 6px 8px;
+}
+
+.cuadromorado{
+    background-image: url(./assets/IMG/morado.jpg);
+    width: 23%;
+    height:55vh;
+    position:absolute;
+}
+
+#vivo{
+    color: #fff;
+    bottom: -20px;
+    left: 15%;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 120%;
+}
+
+#enlinea{
+    color: #fff;
+    bottom: 1px;
+    left: 35%;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.circulo{
+    width: 75%;
+    height: 50%;
+    border: 5px solid #ffff;
+    border-radius: 50%;
+    background: rgb(155, 15, 39);
+    margin: 0px 30px;
+}
+
+#forums{
+    color: #fff;
+    position:absolute;
+    left: 5%;
+    top: 113%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: bold;
+    font-size: 50px;
+}
+
+#radio{
+    color: #fff;
+    position:absolute;
+    left: 12%;
+    top: 122%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 30px;
+}
+
+#sonidos{
+    color: #fff;
+    position:absolute;
+    left: 6%;
+    top: 140%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.cuadrogris{
+    background-image: url(./assets/IMG/gris.jpg);
+    width: 23%;
+    height:55vh;
+    /* margin: 6px 8px; */
+    position:absolute;
+    left: 25%;
+}
+
+#revistaforum{
+    color: #fff;
+    bottom: -10px;
+    left: 30%;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 200%;
+}
+
+#invita{
+    color: #fff;
+    bottom: 10px;
+    left: 37%;
+    position: relative;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.circulos{
+    width: 75%;
+    height: 50%;
+    border: 5px solid #ffff;
+    border-radius: 50%;
+    margin: 0px 40px;
+}
+
+#C{
+    color: #fff;
+    position:absolute;
+    left: 10px;
+    top: 140%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: bold;
+    font-size: 50px;
+}
+
+#Emprendedores{
+    color: #fff;
+    margin: 4px 4px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: bold;
+    font-size: 20px;
+}
