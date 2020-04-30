@@ -9,6 +9,7 @@ import {TarjetasComponents } from "./Components/TarjetasComponentes/Tarjetas.com
 import {TarjetaMorada} from "./Components/TarjetaMorada/TarjetaMorada.component"
 import {TarjetaGris} from "./Components/TarjetaGris/TarjetaGris.component"
 import {TarjetaBlanca} from "./Components/TarjetaBlanca/TarjetaBlanca.component"
+import { TarjetaVerde } from "./Components/TarjetaVerde/TarjetaVerde.component"
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {TarjetaBlanca} from "./Components/TarjetaBlanca/TarjetaBlanca.component"
     TarjetasComponents,
     TarjetaMorada,
     TarjetaGris,
-    TarjetaBlanca
+    TarjetaBlanca,
+    TarjetaVerde
   ],
   imports: [
     BrowserModule

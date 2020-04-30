@@ -1,8 +1,8 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector:"app-tarjetamorada",
-    templateUrl:"TarjetaMorada.component.html",
+    selector:"app-tarjetaverde",
+    templateUrl:"TarjetaVerde.component.html",
 })
 
-export class TarjetaMorada {}
+export class TarjetaVerde {}

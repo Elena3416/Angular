@@ -93,7 +93,7 @@ p{
 #linea{
     border: 3px solid #ffff;
     width: 96%;
-    height: 66vh;
+    height: 65vh;
     margin: 15px 18px;
     position:absolute;
     bottom: 50px;
@@ -123,10 +123,20 @@ p{
 
 .Letras{
     font-family: "Raleway";
+    font-size: 55px;
+    position: absolute;
+    left: 70%;
+    top: 48%;
+    font-weight: bold;
+    color: #ffff;  
+}
+
+#F{
+    font-family: "Raleway";
     font-size: 60px;
     position: absolute;
-    left: 10%;
-    top: 40%;
+    left: 100%;
+    top: 60%;
     font-weight: bold;
     color: #ffff;  
 }
@@ -136,9 +146,9 @@ p{
     /* font-size: 100px; */
     position: absolute;
     left: -2%;
-    top: 40%;
+    top: 100px;
     font-weight: bold;
-    color:green; 
+    color:teal; 
     /* width: 200px;
     height: 10vh;  */
 }
@@ -155,6 +165,7 @@ p{
     width: 23%;
     height:55vh;
     position:absolute;
+    border: 2px solid #000;
 }
 
 #vivo{
@@ -188,8 +199,8 @@ p{
 #forums{
     color: #fff;
     position:absolute;
-    left: 5%;
-    top: 113%;
+    left: 17%;
+    top: 35%;
     text-transform: uppercase;
     text-align: center;
     font-size: bold;
@@ -199,8 +210,8 @@ p{
 #radio{
     color: #fff;
     position:absolute;
-    left: 12%;
-    top: 122%;
+    left: 50%;
+    top: 50%;
     text-transform: uppercase;
     font-size: bold;
     font-size: 30px;
@@ -209,8 +220,8 @@ p{
 #sonidos{
     color: #fff;
     position:absolute;
-    left: 6%;
-    top: 140%;
+    left: 23%;
+    top: 80%;
     text-transform: uppercase;
     font-size: bold;
     font-style: italic;
@@ -221,9 +232,9 @@ p{
     background-image: url(./assets/IMG/gris.jpg);
     width: 23%;
     height:55vh;
-    /* margin: 6px 8px; */
     position:absolute;
     left: 25%;
+    border: 2px solid #000;
 }
 
 #revistaforum{
@@ -246,28 +257,241 @@ p{
 
 .circulos{
     width: 75%;
-    height: 50%;
-    border: 5px solid #ffff;
+    height: 36%;
+    border: 5px solid rgb(2, 250, 2);
     border-radius: 50%;
-    margin: 0px 40px;
+    position:absolute;
+    bottom: 134px;
+    left: 35px;
 }
 
 #C{
     color: #fff;
     position:absolute;
-    left: 10px;
-    top: 140%;
+    left: 20px;
+    top: 15px;
     text-transform: uppercase;
     text-align: center;
     font-size: bold;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #Emprendedores{
     color: #fff;
     margin: 4px 4px;
-    text-transform: uppercase;
     text-align: right;
     font-size: bold;
     font-size: 20px;
+    position:absolute;
+    left: 25px;
+    top: 60px;
+}
+
+#Revistas{
+    color: rgb(2, 250, 2);
+    position:absolute;
+    left: 25%;
+    top: 100%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 15px;
+}
+
+#parrafo{
+    color: #fff;
+    position:absolute;
+    left: 2%;
+    top:65%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+#Final{
+    color: #fff;
+    position:absolute;
+    left: 25%;
+    top:93%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+#title{
+    color: rgb(2, 250, 2);
+    position:absolute;
+    left: 28%;
+    top:85%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.cuadroblanco{
+    border: 2px solid #000;
+    width: 23%;
+    height:55vh;
+    position:absolute;
+    left: 50%;   
+}
+
+#logo{
+    width:80px;
+    height: 80px;
+    margin: 10px 10px;
+}
+
+#meencanta{
+    width:100px;
+    height: 40px;
+    margin: 0 15px;
+}
+
+#Likes{
+    color: #000;
+    position: abosolute;
+    bottom: 2px;
+}
+
+.Border{
+    border: 1px solid #000;
+    width: 80%;
+    height: 65%;
+    margin: 0 20px;
+}
+
+.imagenes{
+    display: flex;
+}
+
+.imagenes > img{
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+}
+
+.imagenes2{
+    display: flex;
+}
+
+.imagenes2 > img{
+    width: 60px;
+    height: 60px;
+    margin: 2px 5px;
+}
+
+.imagenes3{
+    display: flex;
+}
+
+.imagenes3 > img{
+    width: 60px;
+    height: 60px;
+    margin: 2px 5px;
+}
+
+#Facebook > img{
+    width: 20px;
+    height: 20px;
+    margin: 8px 5px; 
+}
+
+.cuadroverde{
+    background-image: url(./assets/IMG/green.jpg);
+    width: 23%;
+    height:55vh;
+    position:absolute;
+    left: 75%;
+    border: 2px solid #000;
+}
+
+#La{
+    color: #fff;
+    bottom: -10px;
+    left: 25px;
+    position: relative;
+    font-size: 150%;
+}
+
+#ORUM{
+    color: #fff;
+    bottom: 20px;
+    left: 25px;
+    position: relative;
+    font-size: 225%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#Contactanos{
+    color: rgb(25, 110, 25);
+    border-radius: 50%;
+    position:absolute;
+    bottom: 60%;
+    left: 25px;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+#Email{
+    color: #fff;
+    position:absolute;
+    left: 25px;
+    top: 130px;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 20px;
+}
+
+#correo{
+    color: #fff;
+    margin: 4px 4px;
+    text-align: right;
+    font-size: bold;
+    font-size: 15px;
+    position:absolute;
+    left: 20px;
+    top: 150px;
+}
+
+#tel{
+    color: #fff;
+    position:absolute;
+    left: 25px;
+    top: 50%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 20px;
+}
+
+#num{
+    color: #fff;
+    position:absolute;
+    left: 25px;
+    top:60%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 15px;
+}
+
+#Direccion{
+    color: #fff;
+    position:absolute;
+    left: 25px;
+    top:70%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-size: 20px;
+}
+
+#Dir{
+    color: #fff;
+    position:absolute;
+    left: 25px;
+    top:80%;
+    font-size: bold;
+    font-size: 15px;
 }
