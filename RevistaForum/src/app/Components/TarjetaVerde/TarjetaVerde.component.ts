@@ -6,7 +6,6 @@ import { Component } from "@angular/core";
 })
 
 export class TarjetaVerde {
-
     public Revista: string = "Revista:";
     public Contactanos: string = "Contáctanos:";
     public Email: string = "Email:";
