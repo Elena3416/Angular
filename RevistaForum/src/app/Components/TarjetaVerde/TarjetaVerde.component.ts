@@ -5,4 +5,11 @@ import { Component } from "@angular/core";
     templateUrl:"TarjetaVerde.component.html",
 })
 
-export class TarjetaVerde {}
+export class TarjetaVerde {
+
+    public Revista: string = "Revista:";
+    public Contactanos: string = "Contáctanos:";
+    public Email: string = "Email:";
+    public Telefono: string = "Teléfono:";
+    public Direccion: string = "Dirección:"
+}

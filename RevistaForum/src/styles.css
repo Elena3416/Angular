@@ -1,9 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Raleway:wght@200&display=swap');
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 header{
     background-image: url(./assets/IMG/grisclaro.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     width: 98%;
     height: 13vh;
@@ -19,24 +24,24 @@ header{
 }
 
 #letra {
-    color: green;
-    font-family: "Raleway";
+    color: rgb(9, 170, 9);
     font-size: 80px;
     right: 92%;
     top: -1%;
     position: absolute;
 }
 span{
-    color: green;
+    color: rgb(9, 170, 9);
     font-family: "Raleway";
     font-size: 15px;
     top: -18px;
     right: 4px;
     position: relative;
+    font-weight: bold;
 }
 
 p{
-    color: green;
+    color: rgb(3, 161, 3);
     font-family: "Raleway";
     font-size: 15px;
     position: relative;
@@ -46,16 +51,17 @@ p{
 }
 
 #copy{
-    font-size: 20px;
+    font-size: 15px;
     color:rgb(90, 88, 88);
     font-family: 'Manrope';
     font-weight: bold;
-    margin: -30px 115px; 
+    margin: -25px 115px; 
 }
 
 .Menu{
     width: 98%;
-    height: 5vh;
+    height: 8vh;
+    margin: 0 8px;
 }
 
 .Menu ul {
@@ -64,7 +70,7 @@ p{
 }
 
 .Menu ul > li{
-    background-image: url(./assets/IMG/green.jpg);
+    background-image: url(./assets/IMG/lightgreen.jpg);
     background-size: cover;
     color: #f4f4f4;
     text-transform: uppercase;
@@ -72,31 +78,31 @@ p{
     font-weight: bold;
     width: 11%;
     text-align: center;
+    justify-content: center;
 }
 
 #fecha{
     color: #ffff;
-    text-transform: uppercase;
     list-style: none;
     font-weight: bold;
-    background: rgb(90, 88, 88);
+    background: rgb(131, 128, 128);
     width: 27%;
     text-align: center;
 }
 
 #imagen img {
     width: 98%;
-    height: 70vh;
+    height: 60vh;
     margin: 0px 8px;
 }
 
 #linea{
     border: 3px solid #ffff;
     width: 96%;
-    height: 65vh;
+    height: 57vh;
     margin: 15px 18px;
     position:absolute;
-    bottom: 50px;
+    bottom: 90px;
 }
 
 #texto > p{
@@ -105,7 +111,7 @@ p{
     font-weight: bold;
     margin: 4px 4px;
     position: absolute;
-    top:83%;
+    top:75%;
     left:3%;
 }
 
@@ -125,7 +131,7 @@ p{
     font-family: "Raleway";
     font-size: 55px;
     position: absolute;
-    left: 70%;
+    left: 75%;
     top: 48%;
     font-weight: bold;
     color: #ffff;  
@@ -133,35 +139,34 @@ p{
 
 #F{
     font-family: "Raleway";
-    font-size: 60px;
+    font-size: 55px;
     position: absolute;
-    left: 100%;
-    top: 60%;
+    left: 70%;
+    top: 48%;
     font-weight: bold;
     color: #ffff;  
 }
 
 #O{
     font-family: "Raleway";
-    /* font-size: 100px; */
+    font-size: 55px;
     position: absolute;
-    left: -2%;
-    top: 100px;
+    left: 72%;
+    top: 48%;
     font-weight: bold;
-    color:teal; 
-    /* width: 200px;
-    height: 10vh;  */
+    color: rgb(15, 153, 15);
 }
 
 .tarjetas{
     display: flex;
     width: 98%;
-    height: 55%;
+    height: 55vh;
     margin: 6px 8px;
 }
 
 .cuadromorado{
-    background-image: url(./assets/IMG/morado.jpg);
+    background: purple;
+    background-size: cover;
     width: 23%;
     height:55vh;
     position:absolute;
@@ -171,7 +176,7 @@ p{
 #vivo{
     color: #fff;
     bottom: -20px;
-    left: 15%;
+    left: 13%;
     text-transform: uppercase;
     position: relative;
     font-size: 120%;
@@ -179,7 +184,7 @@ p{
 
 #enlinea{
     color: #fff;
-    bottom: 1px;
+    bottom: -4px;
     left: 35%;
     text-transform: uppercase;
     position: relative;
@@ -188,30 +193,30 @@ p{
 }
 
 .circulo{
-    width: 75%;
-    height: 50%;
-    border: 5px solid #ffff;
+    width: 80%;
+    height: 63%;
+    border: 7px solid #ffff;
     border-radius: 50%;
-    background: rgb(155, 15, 39);
-    margin: 0px 30px;
+    background: rgb(224, 12, 136);
+    margin: 0px 25px;
 }
 
 #forums{
     color: #fff;
     position:absolute;
-    left: 17%;
-    top: 35%;
+    left: 14%;
+    top: 42%;
     text-transform: uppercase;
     text-align: center;
-    font-size: bold;
-    font-size: 50px;
+    font-weight: bold;
+    font-size: 55px;
 }
 
 #radio{
     color: #fff;
     position:absolute;
-    left: 50%;
-    top: 50%;
+    left: 52%;
+    top: 57%;
     text-transform: uppercase;
     font-size: bold;
     font-size: 30px;
@@ -220,17 +225,17 @@ p{
 #sonidos{
     color: #fff;
     position:absolute;
-    left: 23%;
-    top: 80%;
-    text-transform: uppercase;
+    left: 20%;
+    top: 90%;
     font-size: bold;
     font-style: italic;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .cuadrogris{
     background-image: url(./assets/IMG/gris.jpg);
-    width: 23%;
+    background-size: cover;
+    width: 24%;
     height:55vh;
     position:absolute;
     left: 25%;
@@ -239,7 +244,7 @@ p{
 
 #revistaforum{
     color: #fff;
-    bottom: -10px;
+    bottom: -5px;
     left: 30%;
     text-transform: uppercase;
     position: relative;
@@ -248,43 +253,51 @@ p{
 
 #invita{
     color: #fff;
-    bottom: 10px;
+    bottom: 20px;
     left: 37%;
     position: relative;
     font-size: 120%;
     font-weight: bold;
 }
 
+#letrao{
+        color:rgb(19, 179, 19);
+        left: 1px;
+        top:2px;
+        position: relative;
+        font-size: 38px;
+        font-weight: bold;
+}
+
 .circulos{
-    width: 75%;
-    height: 36%;
-    border: 5px solid rgb(2, 250, 2);
+    width: 60%;
+    height:45%;
+    border: 7px solid rgb(2, 250, 2);
     border-radius: 50%;
     position:absolute;
-    bottom: 134px;
-    left: 35px;
+    bottom: 110px;
+    left: 60px;
 }
 
 #C{
     color: #fff;
     position:absolute;
-    left: 20px;
-    top: 15px;
+    left: 13px;
+    top: 40px;
     text-transform: uppercase;
-    text-align: center;
-    font-size: bold;
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 33px;
 }
 
 #Emprendedores{
     color: #fff;
     margin: 4px 4px;
     text-align: right;
-    font-size: bold;
+    font-weight: bold;
     font-size: 20px;
     position:absolute;
-    left: 25px;
-    top: 60px;
+    left: 7px;
+    top: 70px;
 }
 
 #Revistas{
@@ -292,47 +305,40 @@ p{
     position:absolute;
     left: 25%;
     top: 100%;
-    text-transform: uppercase;
-    font-size: bold;
+    font-weight: bold;
     font-size: 15px;
 }
 
 #parrafo{
     color: #fff;
     position:absolute;
-    left: 2%;
-    top:65%;
-    text-transform: uppercase;
-    font-size: bold;
-    font-size: 10px;
+    left: 3%;
+    right: 3%;
+    top:70%;
+    font-weight: bold;
+    font-size: 12px;
     text-align: center;
 }
 
 #Final{
     color: #fff;
     position:absolute;
-    left: 25%;
+    left: 14%;
     top:93%;
-    text-transform: uppercase;
-    font-size: bold;
-    font-size: 10px;
-    text-align: center;
+    font-size: 15px;
 }
 
 #title{
     color: rgb(2, 250, 2);
     position:absolute;
-    left: 28%;
-    top:85%;
-    text-transform: uppercase;
-    font-size: bold;
+    left: 33%;
+    top:86%;
     font-size: 15px;
-    text-align: center;
 }
 
 .cuadroblanco{
     border: 2px solid #000;
-    width: 23%;
+    width: 24%;
     height:55vh;
     position:absolute;
     left: 50%;   
@@ -341,26 +347,28 @@ p{
 #logo{
     width:80px;
     height: 80px;
-    margin: 10px 10px;
+    margin: 10px 40px;
 }
 
 #meencanta{
-    width:100px;
-    height: 40px;
+    width:80px;
+    height: 30px;
     margin: 0 15px;
 }
 
 #Likes{
     color: #000;
     position: abosolute;
-    bottom: 2px;
+    bottom: -3px;
 }
 
 .Border{
     border: 1px solid #000;
-    width: 80%;
+    width: 72%;
     height: 65%;
-    margin: 0 20px;
+    margin: 0 40px;
+    position: relative;
+    bottom: 3%;
 }
 
 .imagenes{
@@ -396,12 +404,13 @@ p{
 #Facebook > img{
     width: 20px;
     height: 20px;
-    margin: 8px 5px; 
+    margin: 11px 0; 
 }
 
 .cuadroverde{
     background-image: url(./assets/IMG/green.jpg);
-    width: 23%;
+    background-size: cover;
+    width: 24%;
     height:55vh;
     position:absolute;
     left: 75%;
@@ -427,22 +436,23 @@ p{
 }
 
 #Contactanos{
-    color: rgb(25, 110, 25);
+    color:rgb(2, 250, 2); 
     border-radius: 50%;
     position:absolute;
-    bottom: 60%;
+    bottom: 63%;
     left: 25px;
     font-size: 100%;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 #Email{
     color: #fff;
     position:absolute;
     left: 25px;
-    top: 130px;
+    top: 125px;
     text-transform: uppercase;
-    font-size: bold;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -450,7 +460,7 @@ p{
     color: #fff;
     margin: 4px 4px;
     text-align: right;
-    font-size: bold;
+    font-weight: bold;
     font-size: 15px;
     position:absolute;
     left: 20px;
@@ -461,9 +471,9 @@ p{
     color: #fff;
     position:absolute;
     left: 25px;
-    top: 50%;
+    top: 52%;
     text-transform: uppercase;
-    font-size: bold;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -473,7 +483,7 @@ p{
     left: 25px;
     top:60%;
     text-transform: uppercase;
-    font-size: bold;
+    font-weight: bold;
     font-size: 15px;
 }
 
@@ -481,9 +491,9 @@ p{
     color: #fff;
     position:absolute;
     left: 25px;
-    top:70%;
+    top:72%;
     text-transform: uppercase;
-    font-size: bold;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -492,6 +502,15 @@ p{
     position:absolute;
     left: 25px;
     top:80%;
-    font-size: bold;
+    font-weight: bold;
     font-size: 15px;
+}
+
+#Verde{
+    color:rgb(2, 250, 2);
+    left: 1px;
+    top:1px;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
 }
